@@ -10,23 +10,20 @@ docker exec -it vue-poc npm install
 
 ### Compiles and hot-reloads for development
 ```
-npm run serve
+docker exec -it vue-poc npm run serve
 ```
 
 ### Compiles and minifies for production
 ```
-npm run build
+docker exec -it vue-poc npm run build
 ```
 
 ### Run your unit tests
 ```
-npm run test:unit
+docker exec -it vue-poc npm run test:unit
 ```
 
 ### Lints and fixes files
 ```
-npm run lint
+docker exec -it vue-poc npm run lint --fix
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
