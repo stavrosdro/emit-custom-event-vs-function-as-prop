@@ -1,0 +1,6 @@
+{
+    "liveServer.settings.port": 8080,
+    "liveServer.settings.root": "./dist",
+    "liveServer.settings.file": "index.html",
+    "prettier.prettierPath": "./node_modules/prettier"
+}
