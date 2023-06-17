@@ -1,10 +1,6 @@
 <template>
-  <div>
-    <BaseButtonEmit
-      v-for="i in 300_000"
-      :key="i"
-      @button-click="onButtonClick"
-    />
+  <div v-for="i in 300_000" :key="i">
+    <BaseButtonEmit @button-click="onButtonClick()" />
   </div>
 </template>
 

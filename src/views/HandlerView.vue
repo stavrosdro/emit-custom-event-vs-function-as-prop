@@ -1,10 +1,6 @@
 <template>
-  <div>
-    <BaseButtonHandler
-      v-for="i in 300_000"
-      :key="i"
-      :click-handler="onButtonClick"
-    />
+  <div v-for="i in 300_000" :key="i">
+    <BaseButtonHandler :click-handler="onButtonClick" />
   </div>
 </template>
 
